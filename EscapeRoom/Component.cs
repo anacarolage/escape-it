@@ -231,8 +231,6 @@ namespace EscapeRoom
 
             spriteBatch.End();
 
-
-
             base.Draw(gameTime);
         }
 
