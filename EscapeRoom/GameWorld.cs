@@ -86,8 +86,6 @@ namespace EscapeRoom
 
             open_door = Content.Load<SoundEffect>("sounds/open_door");
             soundtrack = Content.Load<Song>("sounds/soundtrack");
-
-
         }
 
         protected override void Update(GameTime gameTime)
@@ -206,10 +204,7 @@ namespace EscapeRoom
 
             previousState = currentState;
 
-
             base.Update(gameTime);
         }
-
-
     }
 }
